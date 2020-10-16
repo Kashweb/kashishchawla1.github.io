@@ -1,7 +1,13 @@
 body {
-    background-color: black;
+    background-color: #eee;
     text-align: center;
+    background-image: url(img/h.jpg);
 }
+.logo{
+    position: relative;
+  left: 50px;
+  width: 200px;
+  height: 80px;
   
 }
 button {
@@ -11,7 +17,7 @@ button {
 .btn1{
     border-radius: 8px;
     padding: 10px 15px;
-    background-color: lightblue;
+    background-color: blue;
     font-size: 15px;
 }
 .btn1:hover{
@@ -20,7 +26,7 @@ button {
 .btn2{
     border-radius: 8px;
     padding: 10px 24px;
-    background-color: yellowgreen;
+    background-color: green;
     font-size: 12px;
 }
 .btn2:hover{
@@ -60,9 +66,9 @@ input {
     padding: 5px 14px;
     border: 2px solid #201f1d;
     margin-bottom: 10px;
-    background-color: black;
+    background-color: rgba(0,0,0,.4);
     outline: none;
-    color: white;
+    color: #fff;
     font-size: 14px;
 }
 
@@ -72,9 +78,9 @@ input:focus {
 }
 
 form {
-    background-color: black;
+    background-color: #fff;
     padding: 20px;
-    color: white;
+    color: #000;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
 }
 
